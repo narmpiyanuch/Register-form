@@ -1,0 +1,65 @@
+#root {
+  display: flex;
+  justify-content: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.register-page{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#register {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.ant-form{
+  font-family: "Roboto";
+}
+
+.ant-form-item {
+  margin-bottom: 14px !important;
+}
+
+.ant-form-item-row {
+  width: 300px;
+  margin-bottom : 10px;
+}
+
+.ant-form-item .ant-form-item-label >label {
+  width: 100px;
+  font-size: 12px;
+}
+
+.ant-picker{
+  width: 200px;
+}
+
+.ant-form-item-explain-error {
+  text-align : left;
+  font-size: 10px;
+}
+
+.ant-form-item-control-input-content {
+  display: flex;
+  justify-content: center;
+}
+
+.ant-picker .ant-picker-input >input, .ant-input-outlined {
+  font-size: 12px;
+}
